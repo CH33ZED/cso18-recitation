@@ -32,4 +32,4 @@ You need to submit all four modified files.
 **git commit -m "r02"**
 **git push**
 
-**Due date: Feb 12, 2018**
+**Due: Feb 12, 2018**

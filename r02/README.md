@@ -29,9 +29,7 @@ Hint: What are bitwise shift operators for?
 Before submitting your solution, you can type **git diff** to see what you have changed. Be sure to change those lines discussed in above descriptions.
 You need to submit all four modified files.  
 **git add e1.c e2.c e3.c e4.c**     
-
 **git commit -m "r02"**     
-
 **git push**     
 
 **Due: Feb 12, 2018**

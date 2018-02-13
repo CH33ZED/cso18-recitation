@@ -2,7 +2,7 @@
 
 int main(int argc, char **argv) 
 {
-    // FIXME: Modify the values of i and j so that the output in the end is -28.
+    // FIXME: Mondify the values of i and j so that the printf will print -28.
     int i = 0;
     int j = 0;
 

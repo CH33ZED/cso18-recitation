@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 void printb(void* p)
 {
     // FIXME: Complete this function so that it will print out the binary 
-    //        representation (preceded by "0b") of the content point by ptr.
+    //        representation (preceded by "0b") of the content pointed by ptr.
     //        After you finish it, please test it. Some examples:
     //        $./e4 1
     //        0b00000000000000000000000000000010 or 0b10

@@ -1,7 +1,9 @@
 Tutorial 3
 ==========
 
-Array and pointer are hard topics in C language. Especially when you use both of them in the program. This tutorial give you more exercises about pointer and array. We will write a tool (in exercise 4) that can print out a number (integer or floating number) in binary representation as the ending of our C language introduction (unless you need more).
+Array and pointer are hard topics in C language. Especially when you use both of them in the program. This tutorial give you more exercises about pointer and array. In addition, we will write a tool (in exercise 4) that can print out a number (integer or floating number) in its binary representation as the ending of our C language introduction (unless you need more).
+
+Type **make** to compile all the programs.
 
 Exercise 1
 ----
@@ -9,7 +11,7 @@ Exercise 1
 
 Exercise 2
 ----
-You should already know that a pointer is a variable which contains the address in memory of another variable. You may also know that not only data(variables) but also programs are are stored in memory. If so, can a pointer point to a function? The answer is yes. Please check compile **e2.c** and execute it. You will get 0 as the output. Carefully read **e2.c** and replace all four **0**s in line 30 - 33 with some other numbers so that the **printf** will print out 1.
+You already know that a pointer is a variable which contains the address of another variable. You may also know that not only data(variables) but also programs are are stored in the memory. If so, can a pointer point to a function? The answer is yes. Please compile **e2.c** and execute it. You will get 0 as the output. Carefully read **e2.c** and replace all four **0**s in line 30 - 33 with some other numbers so that the **printf** will print out 1.
 
 Readings:
 * [Function Pointers](https://en.wikipedia.org/wiki/Function_pointer)

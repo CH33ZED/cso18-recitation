@@ -4,7 +4,7 @@ I, fegin, will read the document and make sure I understand the logistics and in
 I know I can access this document through the [link](https://github.com/nyu-cso18/recitation-fegin/blob/master/r04/CSO_CHEAT_SHEET.md)
 
 ## Logistics
-1. For all future labs and recitations, the scores will be post to NYU classes. CSO graders will post on Piazza when the scores are ready. 
+1. For all future labs and recitations, the scores will be post to NYU Classes. CSO graders will post on Piazza when the scores are ready. 
    * If I have any question about the score, I must contact CSO graders before the deadline specified in the post.
 2. All the deadlines are 11:59 PM on the due date. Any late submission will not be considered.
    * For example, if I, fegin, submit at 0:06 AM for recitation, I realized that submit will be ignored.
@@ -17,7 +17,9 @@ I know I can access this document through the [link](https://github.com/nyu-cso1
    * For game of life, I can look up how to read a file in C language on the Internet. But the logic of game of life must be entirely implemented by myself.
 
 ## GIT instructions
-I'll learn how to use GIT through [Git tutorial](https://try.github.io/levels/1/challenges/1) and [Learning Git branching](https://learngitbranching.js.org/).
+I can learn how to use GIT through [Git tutorial](https://try.github.io/levels/1/challenges/1) and [Learning Git branching](https://learngitbranching.js.org/).
+
+To prevent the repositories from corruption, I'll type the command `sync` in the virtualbox after I finish my work (recitation and/or labs).
 
 ### What I should not do
 1. I'll never use `git add -a`. Instead, I should always specify what files I want to commit, e.g., `git add e1.c e2.c e3.c`. Using `git add -a` will result in future git conflicts.

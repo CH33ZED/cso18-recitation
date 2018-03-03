@@ -28,13 +28,13 @@ To prevent the repositories from corruption, I'll type the command `sync` in the
 ### Initialization recitation repository
 1. `git clone https://github.com/nyu-cso18/recitation-fegin`
 2. `cd recitation-fegin`
-3. `https://github.com/nyu-cso18/cso18-recitation`
+3. `git remote upstream add https://github.com/nyu-cso18/cso18-recitation`
 4. `git pull upstream master`
 
 ### Initialization labs repository
 1. `git clone https://github.com/nyu-cso18/labs-fegin`
 2. `cd labs-fegin`
-3. `https://github.com/nyu-cso18/cso18-labs`
+3. `git remote upstream add https://github.com/nyu-cso18/cso18-labs`
 4. `git pull upstream master`
 
 ### How to fix labs repository when it is corrupt.

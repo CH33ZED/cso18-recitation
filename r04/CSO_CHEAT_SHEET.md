@@ -21,7 +21,7 @@ I can learn how to use GIT through [Git tutorial](https://try.github.io/levels/1
 
 To prevent the repositories from corruption, I'll type the command `sync` in the virtualbox after I finish my work (recitation and/or labs).
 
-### What I should not do
+### What I can not do?
 1. I'll never use `git add -a`. Instead, I should always specify what files I want to commit, e.g., `git add e1.c e2.c e3.c`. Using `git add -a` will result in future git conflicts.
 2. I'll never modify file through https://github.com. I'll only use the website to check my updates.
 
@@ -37,21 +37,21 @@ To prevent the repositories from corruption, I'll type the command `sync` in the
 3. `git remote upstream add https://github.com/nyu-cso18/cso18-labs`
 4. `git pull upstream master`
 
-### How to fix labs repository when it is corrupt.
+### How to fix labs repository when it is corrupt?
 When performing any GIT command and I get a message like the figure, ![](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/corrupt.png) I'll do following instructions to fix the problem.
 
 1. I'll first backup the folder with the command `mv labs-fegin labs-fegin-backup`. I have to first switch the folder which contains labs-fegin before doing the command.
 2. After backuping the folder, I'll do **Initialization labs repository** described above.
 3. Copy the files I already modified in labs-fegin-backup back to labs-fegin. I can only copy modified C files (.c, .h) back to the newly initialized folder.
 
-### How to fix recitation repository when it is corrupt.
+### How to fix recitation repository when it is corrupt?
 When performing any GIT command and I get a message like the figure, ![](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/corrupt.png) I'll do following instructions to fix the problem.
 
 1. I'll first backup the folder with the command `mv recitation-fegin recitation-fegin-backup`. I have to first switch the folder which contains labs-fegin before doing the command.
 2. After backuping the folder, I'll do **Initialization recitation repository** described above.
 3. I'll copy the files I already modified in recitation-fegin-backup back to recitation-fegin. I can only copy modified C files (.c, .h) back to the newly initialized folder.
 
-### How to fix labs/recitation repository when there are conflicts.
+### How to fix labs/recitation repository when there are conflicts?
 When performing any GIT command and I get a message like the figure, ![](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/conflict.png) I'll do following instructions to fix the problem.
 
 1. I'll first type the command `git commit`. The command will show me the files which are conflicted.

@@ -13,7 +13,8 @@ I know I can access this document through the [link](https://github.com/nyu-cso1
 4. I must follow all the instructions CSO graders and instructors post on Piazza. Especially the ones pinned by the graders.
    * For example, CSO graders have posted how to use grace days for labs. In the future, any submission with incorrect formats will be ignored. 
 5. When doing labs, I have to always follow the instructions. I, fegin, won't change the output format. If I don't understand the output format, I'll ask on Piazza.
-6. Plagiarism examples:
+6. When doing labs, I should only modify the files which the instructions ask us to modify. Even I really have to modify some files for testing purpose, I should never commit them.
+7. Plagiarism examples:
    * For game of life, I can look up how to read a file in C language on the Internet. But the logic of game of life must be entirely implemented by myself.
 
 ## GIT instructions

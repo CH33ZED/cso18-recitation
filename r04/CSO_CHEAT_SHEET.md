@@ -38,7 +38,7 @@ I'll learn how to use GIT through [Git tutorial](https://try.github.io/levels/1/
 4. `git pull upstream master`
 
 ### How to fix labs repository when it is corrupt.
-When performing any GIT command and I get a message like ![the figure](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/corrupt.png|alt=octocat). I'll do following instructions to fix the problem.
+When performing any GIT command and I get a message like ![the figure](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/corrupt.png). I'll do following instructions to fix the problem.
 
 1. I'll first backup the folder with the command `mv labs-fegin labs-fegin-backup`. I realize that I may change the folder name before. I'll change the instruction according to my folder setting.
 2. After backuping the folder, I'll do [Initialization labs repository]()

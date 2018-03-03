@@ -3,7 +3,7 @@ I, fegin, will read the document and make sure I understand the logistics and in
 
 I know I can access this document through the [link](https://github.com/nyu-cso18/recitation-fegin/blob/master/r04/CSO_CHEAT_SHEET.md)
 
-## Logstics
+## Logistics
 1. For all future labs and recitations, the scores will be post to NYU classes. CSO graders will post on Piazza when the scores are ready. 
    * If I have any question about the score, I must contact CSO graders before the deadline specified in the post.
 2. All the deadlines are 11:59 PM on the due date. Any late submission will not be considered.
@@ -55,7 +55,7 @@ When performing any GIT command and I get a message like the figure. ![](https:/
 1. I'll first do the command `git commit`. The command will show me the files are conflicted.
 2. If I don't care about the correctness of those files, I'll do the command `git add CONFLICT_FILE_PATH`. I'll change CONFLICT\_FILE\_PATH to the paths to those conflicted files.
 3. If I care about the correctness of those files, I'll edit those files. Remove unwanted lines, e.g. <<<<, >>>> and HEAD. And I'll use the same command as step 2 to add the conflicted files.
-4. Then I have to do the commad `git commit`. If the command shows there are still some conflict. I'll start from step 2.
+4. Then I have to do the command `git commit`. If the command shows there are still some conflict. I'll start from step 2.
 5. Finally, I have to do the command `git push origin master`.
 
 ### How to deal with the merge message.

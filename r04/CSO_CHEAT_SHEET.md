@@ -1,9 +1,8 @@
 # Tutorial 4
 I, fegin, will read the document and make sure I understand the logistics and instructions. In the future, I'll try to fix these issues with the instructions specified below. If I have any further question I'll ask on Piazza.
 
-
+I know I can access this document through the [link](https://github.com/nyu-cso18/recitation-fegin/blob/master/r04/CSO_CHEAT_SHEET.md)
 ## Logstics
---------
 1. For all future labs and recitations, the scores will be post to NYU classes. CSO graders will post on Piazza when the scores are ready. 
    * If I have any question about the score, I must contact CSO graders before the deadline specified in the post.
 2. All the deadlines are 11:59 PM on the due date. Any late submission will not be considered.
@@ -18,7 +17,6 @@ I, fegin, will read the document and make sure I understand the logistics and in
 
 
 ## GIT instructions
-----------------
 I'll learn how to use GIT through [Git tutorial](https://try.github.io/levels/1/challenges/1) and [Learning Git branching](https://learngitbranching.js.org/).
 
 ### What I should not do
@@ -38,21 +36,21 @@ I'll learn how to use GIT through [Git tutorial](https://try.github.io/levels/1/
 4. `git pull upstream master`
 
 ### How to fix labs repository when it is corrupt.
-When performing any GIT command and I get a message like ![the figure](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/corrupt.png). I'll do following instructions to fix the problem.
+When performing any GIT command and I get a message like the figure. ![](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/corrupt.png) I'll do following instructions to fix the problem.
 
 1. I'll first backup the folder with the command `mv labs-fegin labs-fegin-backup`. I realize that I may change the folder name before. I'll change the instruction according to my folder setting.
 2. After backuping the folder, I'll do [Initialization labs repository]()
 3. Copy the files I already modified in labs-fegin-backup back to labs-fegin. I realize that I can only copy modified C files (.c, .h) back to the newly initialized folder.
 
 ### How to fix recitation repository when it is corrupt.
-When performing any GIT command and I get a message like the figure. I'll do following instructions to fix the problem.
+When performing any GIT command and I get a message like the figure. ![](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/corrupt.png) I'll do following instructions to fix the problem.
 
 1. I'll first backup the folder with the command `mv recitation-fegin recitation-fegin-backup`. I realize that I may change the folder name before. I'll change the instruction according to my folder setting.
 2. After backuping the folder, I'll do [Initialization recitation repository]()
 3. I'll copy the files I already modified in recitation-fegin-backup back to recitation-fegin. I realize that I can only copy modified C files (.c, .h) back to the newly initialized folder.
 
 ### How to fix labs/recitation repository when there are conflicts.
-When performing any GIT command and I get a message like the figure. I'll do following instructions to fix the problem.
+When performing any GIT command and I get a message like the figure.![](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/conflict.png) I'll do following instructions to fix the problem.
 
 1. I'll first type the command `git commit`. The command will show me the files are conflicted.
 2. If I don't care about the correctness of those files, I'll type the command `git add CONFLICT_FILE_PATH`. I'll change CONFLICT\_FILE\_PATH to the paths to those conflicted files.
@@ -61,4 +59,4 @@ When performing any GIT command and I get a message like the figure. I'll do fol
 5. Finally, I have to do the command `git push origin master`.
 
 ### How to deal with the merge message.
-When doing `git pull upstream master` for ether labs or recitation repository and I see a message like the figure, I'll type `ctrl + x`. 
+When doing `git pull upstream master` for ether labs or recitation repository and I see a message like the figure, ![](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/merge.png) I'll type `ctrl + x`. 

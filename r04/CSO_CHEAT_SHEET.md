@@ -54,8 +54,8 @@ When performing any GIT command and I get a message like the figure, ![](https:/
 ### How to fix labs/recitation repository when there are conflicts.
 When performing any GIT command and I get a message like the figure, ![](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/conflict.png) I'll do following instructions to fix the problem.
 
-1. I'll first do the command `git commit`. The command will show me the files are conflicted.
-2. If I don't care about the correctness of those files, I'll do the command `git add CONFLICT_FILE_PATH`. I'll change CONFLICT\_FILE\_PATH to the paths to those conflicted files.
+1. I'll first type the command `git commit`. The command will show me the files which are conflicted.
+2. If I don't care about the correctness of those files, I'll type the command `git add CONFLICT_FILE_PATH`. I'll replace CONFLICT\_FILE\_PATH with the paths to those conflicted files.
 3. If I care about the correctness of those files, I'll edit those files. Remove unwanted lines, e.g. <<<<, >>>> and HEAD. And I'll use the same command as step 2 to add the conflicted files.
 4. Then I have to do the command `git commit`. If the command shows there are still some conflict. I'll start from step 2.
 5. Finally, I have to do the command `git push origin master`.

@@ -20,7 +20,7 @@ I can access this document through the [link](https://github.com/nyu-cso18/recit
 ## GIT instructions
 I can learn how to use GIT through [Git tutorial](https://try.github.io/levels/1/challenges/1) and [Learning Git branching](https://learngitbranching.js.org/).
 
-To prevent the repositories from corruption, I'll type the command `sync` in the virtualbox after everytime I finish(even I just want to take a break) my work (recitation and/or labs).
+To prevent the repositories from corruption, I'll type the command `sync` in the virtualbox after every time I finish(even I just want to take a break) my work (recitation and/or labs).
 
 ### What I can not do?
 1. I'll never use `git add -a`. Instead, I should always specify what files I want to commit, e.g., `git add e1.c e2.c e3.c`. Using `git add -a` will result in future git conflicts.
@@ -33,7 +33,7 @@ To prevent the repositories from corruption, I'll type the command `sync` in the
 4. `git pull upstream master`
 5. `git remote -v`  
 
-The oupput should be  
+The output should be  
 
 ```
 origin  https://github.com/nyu-cso18/recitation-fegin (fetch)
@@ -49,7 +49,7 @@ upstream        https://github.com/nyu-cso18/cso18-recitation (push)
 4. `git pull upstream master`
 5. `git remote -v`  
 
-The oupput should be: 
+The output should be: 
 
 ```
 origin  https://github.com/nyu-cso18/labs-fegin (fetch)

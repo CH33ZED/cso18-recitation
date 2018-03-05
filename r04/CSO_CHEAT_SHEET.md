@@ -23,7 +23,7 @@ I can learn how to use GIT through [Git tutorial](https://try.github.io/levels/1
 To prevent the repositories from corruption, I'll type the command `sync` in the virtualbox after every time I finish(even I just want to take a break) my work (recitation and/or labs).
 
 ### What I can not do?
-1. I'll never use `git add -a`. Instead, I should always specify what files I want to commit, e.g., `git add e1.c e2.c e3.c`. Using `git add -a` will result in future git conflicts.
+1. I'll never use `git add -a` and `git add *`. Instead, I should always specify what files I want to commit, e.g., `git add e1.c e2.c e3.c`. Using `git add -a` will result in future git conflicts.
 2. I'll never modify files through https://github.com. I'll use the website only to check my updates.
 
 ### Initialize recitation repository

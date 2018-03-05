@@ -31,10 +31,10 @@ To prevent the repositories from corruption, I'll type the command `sync` in the
 2. `cd recitation-fegin`
 3. `git remote add upstream https://github.com/nyu-cso18/cso18-recitation`
 4. `git pull upstream master`
+5. `git remote -v`  
 
-### Check recitation remote status
-1. `git remote -v`
-The oupput should be
+The oupput should be  
+
 ```
 origin  https://github.com/nyu-cso18/recitation-fegin (fetch)
 origin  https://github.com/nyu-cso18/recitation-fegin (push)
@@ -47,10 +47,10 @@ upstream        https://github.com/nyu-cso18/cso18-recitation (push)
 2. `cd labs-fegin`
 3. `git remote add upstream https://github.com/nyu-cso18/cso18-labs`
 4. `git pull upstream master`
+5. `git remote -v`  
 
-### Check labs remote status
-1. `git remote -v`
-The oupput should be
+The oupput should be: 
+
 ```
 origin  https://github.com/nyu-cso18/labs-fegin (fetch)
 origin  https://github.com/nyu-cso18/labs-fegin (push)
